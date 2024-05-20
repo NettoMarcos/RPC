@@ -7,6 +7,8 @@ class CalculadoraRemota:
         return a + b
     def subtracao(self, a, b):
         return a - b
+    def multiplicacao(self, a, b):
+        return a * b
 
 # Iniciar o servidor Pyro
 def main():
